@@ -1,0 +1,207 @@
+.ezy__buyticket1 {
+	/* Bootstrap variables */
+	--bs-body-color: #323e50;
+	--bs-body-bg: rgb(50, 62, 80);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-shape-color: #fff;
+	--ezy-body-color-invert: #fff;
+	--ezy-form-card-bg: #fff;
+	--ezy-box-shadow: 0 7px 65px 0 rgb(50, 61, 79, 0.2);
+
+	background-color: var(--bs-body-bg);
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+}
+
+/* Gray Block Style */
+.gray .ezy__buyticket1,
+.ezy__buyticket1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(60, 71, 88);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__buyticket1,
+.ezy__buyticket1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-shape-color: rgb(77, 88, 105);
+	--ezy-body-color-invert: #fff;
+	--ezy-form-card-bg: rgb(77, 88, 105);
+	--ezy-box-shadow: 0 7px 65px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Block Style */
+.dark .ezy__buyticket1,
+.ezy__buyticket1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-shape-color: rgb(50, 62, 80);
+	--ezy-body-color-invert: #fff;
+	--ezy-form-card-bg: rgb(50, 62, 80);
+	--ezy-box-shadow: 0 7px 65px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ezy__buyticket1-inner-wrapper {
+	position: relative;
+	padding: 60px 0;
+}
+@media (min-width: 768px) {
+	.ezy__buyticket1-inner-wrapper {
+		padding: 100px 0;
+	}
+}
+
+.ezy__buyticket1-triangle-shape {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-style: solid;
+	border-right-width: calc(50vw);
+	border-left-width: calc(50vw);
+	border-top-width: 420px;
+	border-color: var(--ezy-shape-color) transparent transparent;
+}
+
+.ezy__buyticket1-buy-ticket-inner {
+	box-shadow: var(--ezy-box-shadow);
+	padding: 50px;
+	overflow: hidden;
+	background-color: var(--ezy-form-card-bg);
+}
+
+.ezy__buyticket1-headline {
+	color: var(--bs-body-color);
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 52px;
+	z-index: 1;
+}
+.ezy__buyticket1-headline::after {
+	width: 110px;
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: var(--ezy-theme-color);
+	bottom: 15px;
+	z-index: -1;
+	transform: translate3d(-50%, 0, 0);
+}
+@media (min-width: 768px) {
+	.ezy__buyticket1-headline {
+		font-size: 50px;
+		line-height: 42px;
+	}
+}
+.ezy__buyticket1-inner {
+	padding: 12px 0 12px 12px;
+	border: 1px solid;
+	border-color: var(--ezy-theme-color);
+	overflow: hidden;
+}
+
+.ezy__buyticket1-heading {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 27px;
+	color: var(--bs-body-color);
+	text-transform: uppercase;
+}
+.ezy__buyticket1-sub-heading {
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}
+.ezy__buyticket1-btn {
+	background-color: var(--bs-body-bg);
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: 0.5s;
+	border: 0;
+}
+.ezy__buyticket1-btn .ezy__buyticket1-btn-icon {
+	color: var(--ezy-theme-color);
+}
+.ezy__buyticket1-btn:hover {
+	color: #fff !important;
+	background-color: var(--ezy-theme-color);
+}
+.ezy__buyticket1-btn:hover .ezy__buyticket1-btn-icon {
+	color: #fff !important;
+}
+
+.ezy__buyticket1-heading-line {
+	position: absolute;
+	bottom: -55px;
+	left: 21px;
+	display: none;
+	z-index: 11;
+}
+.ezy__buyticket1-heading-line-inner {
+	transform-origin: 0 50%;
+	transform: rotate(90deg) translate3d(-100%, 0, 0);
+}
+@media (min-width: 768px) {
+	.ezy__buyticket1-heading-line {
+		display: inline-flex;
+	}
+}
+.ezy__buyticket1-long-line {
+	width: 120px;
+	height: 2px !important;
+	background-color: var(--ezy-theme-color);
+	position: relative;
+	top: -4px;
+	opacity: 1;
+}
+.ezy__buyticket1-start {
+	height: 1rem;
+	position: relative;
+	display: inline-block;
+	left: 0;
+	top: 0;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 5px;
+	transform: rotate(180deg);
+	color: var(--ezy-body-color-invert);
+}
+
+.ezy__buyticket1-sponsors {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+@media (min-width: 567px) {
+	.ezy__buyticket1-sponsors {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+@media (min-width: 991px) {
+	.ezy__buyticket1-sponsors {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+.ezy__buyticket1-sponsors-item {
+	position: relative;
+	padding: 20px 30px;
+}
+.ezy__buyticket1-sponsors-item img {
+	max-width: 100%;
+	height: auto;
+}

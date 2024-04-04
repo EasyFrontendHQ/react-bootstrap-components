@@ -1,0 +1,129 @@
+.ezy__pricing1 {
+	/* Bootstrap variables */
+	--bs-body-color: #252d39;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #f7f7ff;
+	--ezy-item-shadow: none;
+	--ezy-item-active-bg: #262a40;
+	--ezy-item-active-color: #fff;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__pricing1,
+.ezy__pricing1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(239, 244, 253);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__pricing1,
+.ezy__pricing1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #243548;
+	--ezy-item-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__pricing1,
+.ezy__pricing1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #101d2c;
+	--ezy-item-shadow: none;
+}
+
+.ezy__pricing1-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing1-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__pricing1-sub-heading {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--bs-body-color);
+}
+
+.ezy__pricing1-item {
+	background-color: var(--ezy-item-bg);
+	border-radius: 15px;
+	box-shadow: var(--ezy-item-shadow);
+	transition: transform 0.25s ease-in-out;
+}
+
+.ezy__pricing1-item.active {
+	background-color: var(--ezy-item-active-bg);
+}
+
+.ezy__pricing1-price,
+.ezy-pricing1-features,
+.ezy__pricing1-note,
+.ezy__pricing1-title {
+	color: var(--bs-body-color);
+}
+
+.ezy__pricing1-item.active .ezy__pricing1-price,
+.ezy__pricing1-item.active .ezy-pricing1-features,
+.ezy__pricing1-item.active .ezy__pricing1-note,
+.ezy__pricing1-item.active .ezy__pricing1-title {
+	color: var(--ezy-item-active-color);
+}
+
+.ezy__pricing1 .btn-outline-primary {
+	background-color: rgba(var(--bs-primary-rgb), 0.15);
+	color: rgba(var(--bs-primary-rgb), 1) !important;
+	border: none;
+}
+
+.ezy__pricing1-btn {
+	padding: 12px 30px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__pricing1-btn.btn-outline {
+	color: rgba(var(--ezy-theme-color-rgb), 1);
+	background-color: transparent;
+}
+
+.ezy__pricing1-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__pricing1 .text-primary {
+	color: var(--ezy-theme-color) !important;
+}

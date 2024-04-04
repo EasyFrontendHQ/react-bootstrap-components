@@ -1,0 +1,135 @@
+.ezy__travel5 {
+	/* Bootstrap variables */
+	--bs-body-color: #484848;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-body-color-invert: rgb(64, 65, 86);
+	--ezy-border-color: rgb(187, 191, 200);
+	--ezy-card-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	padding: 60px 0;
+}
+@media (min-width: 768px) {
+	.ezy__travel5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__travel5,
+.ezy__travel5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-body-color-invert: rgb(46, 47, 65);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__travel5,
+.ezy__travel5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(64, 65, 86);
+
+	/* Easy Frontend variables */
+	--ezy-body-color-invert: rgb(46, 47, 65);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+	--ezy-border-color: rgba(255, 255, 255, 0.43);
+}
+
+/* Dark Block Style */
+.dark .ezy__travel5,
+.ezy__travel5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(46, 47, 65);
+
+	/* Easy Frontend variables */
+	--ezy-body-color-invert: rgb(64, 65, 86);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+	--ezy-border-color: rgba(255, 255, 255, 0.43);
+}
+
+.ezy__travel5-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 1;
+	color: #fff;
+}
+@media (min-width: 768px) {
+	.ezy__travel5-heading {
+		font-size: 32px;
+	}
+}
+
+.ezy__travel5-header {
+	background-color: var(--ezy-body-color-invert);
+}
+.ezy__travel5-card {
+	background-color: var(--bs-body-bg);
+	box-shadow: var(--ezy-card-shadow);
+}
+
+.ezy__travel5 .form-control {
+	min-height: 42px;
+	line-height: 36px;
+	border-color: var(--ezy-border-color);
+	background: transparent;
+	color: var(--bs-body-color);
+}
+
+.ezy__travel5 .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+
+.ezy__travel5 .form-check-input:checked {
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__travel5 label {
+	opacity: 0.8;
+}
+.ezy__travel5 .form-group label {
+	font-size: 18px;
+	font-weight: 500;
+	opacity: 0.8;
+}
+.ezy__travel5 label a {
+	text-decoration: none;
+	color: var(--ezy-theme-color);
+	opacity: 1;
+	font-weight: 500;
+}
+
+.ezy__travel5-btn-submit {
+	padding: 5px 25px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+	color: #fff;
+	height: 45px;
+	font-size: 18px;
+	line-height: 1;
+	border-radius: 5px;
+}
+.ezy__travel5-btn-submit:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	color: #fff;
+}
+.ezy__travel5-review {
+	color: var(--bs-body-color);
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+}
+.ezy__travel5-review:hover {
+	color: var(--ezy-theme-color);
+}

@@ -1,0 +1,182 @@
+.ezy__buyticket2 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: rgb(239, 244, 253);
+	--ezy-card-header-bg: rgb(228, 236, 250);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__buyticket2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__buyticket2,
+.ezy__buyticket2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__buyticket2,
+.ezy__buyticket2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-card-header-bg: rgb(14 27 43);
+}
+
+/* Dark Block Style */
+.dark .ezy__buyticket2,
+.ezy__buyticket2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-card-header-bg: rgb(14 27 43);
+}
+
+.ezy__buyticket2-heading {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 45px;
+	color: var(--bs-body-color);
+}
+@media (min-width: 768px) {
+	.ezy__buyticket2-heading {
+		font-size: 55px;
+		line-height: 70px;
+	}
+}
+.ezy__buyticket2-sub-heading {
+	font-size: 14px;
+	line-height: 28px;
+	color: var(--bs-body-color);
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 0.9;
+}
+
+.ezy__buyticket2-item-title {
+	font-size: 35px;
+	line-height: 45px;
+	margin: 0;
+}
+.ezy__buyticket2-item-price {
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 15px;
+	letter-spacing: 2px;
+}
+.ezy__buyticket2-item-header {
+	min-height: 108px;
+	background-color: var(--ezy-card-header-bg);
+}
+.ezy__buyticket2-item-key-features ul {
+	padding: 0 40px;
+}
+.ezy__buyticket2-item-key-features ul li {
+	list-style: none;
+	padding: 12px 0;
+}
+.ezy__buyticket2-item-key-features ul li:not(:first-child) {
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.ezy__buyticket2-item-inner-wrapper {
+	background-color: var(--ezy-card-bg);
+	border-right: 2px solid var(--bs-body-bg);
+}
+.ezy__buyticket2-item:last-child .ezy__buyticket2-item-inner-wrapper {
+	border-right-width: 0;
+}
+@media (max-width: 991px) {
+	.ezy__buyticket2-item {
+		margin-bottom: 30px;
+	}
+}
+
+.ezy__buyticket2-form-card {
+	background-color: var(--ezy-card-bg);
+}
+.ezy__buyticket2-form-card .card-body:not(:first-child) {
+	border-top: 2px solid var(--bs-body-bg);
+}
+
+.ezy__buyticket2 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	border-bottom: 2px solid rgba(163, 190, 241, 0.24);
+	background: transparent;
+	border-radius: 0;
+	color: var(--bs-body-color);
+	outline: none;
+}
+.ezy__buyticket2 .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+.ezy__buyticket2 input[type="checkbox"] {
+	appearance: none;
+	cursor: pointer;
+	margin: 0;
+	outline-width: 0;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	background-image: none !important;
+	background-color: transparent !important;
+	border: none !important;
+}
+.ezy__buyticket2 input[type="checkbox"]:before,
+.ezy__buyticket2 input[type="checkbox"]:checked:after {
+	content: "";
+	position: absolute;
+}
+.ezy__buyticket2 input[type="checkbox"]:before {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid var(--bs-body-color);
+	opacity: 0.4;
+}
+.ezy__buyticket2 input[type="checkbox"]:checked:after {
+	top: 7px;
+	left: 7px;
+	height: 16px;
+	width: 16px;
+	background-color: var(--bs-body-color);
+}
+.ezy__buyticket2-qty {
+	width: 80px;
+}
+
+.ezy__buyticket2 .btn-outline-light {
+	color: var(--bs-body-color);
+	background-color: transparent;
+	border: 1px solid rgba(163, 190, 241, 0.24);
+	padding: 12px 20px;
+	transition: 0.5s;
+}
+.ezy__buyticket2 .btn-outline-light:hover {
+	color: var(--bs-body-bg);
+	background-color: var(--bs-body-color);
+}

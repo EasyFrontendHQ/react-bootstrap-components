@@ -1,0 +1,129 @@
+.ezy__httpcodes2 {
+	/* Bootstrap variables */
+	--bs-body-color: #04004d;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-svg-color: #fffaea;
+	--ezy-content-color: #fcc63d;
+	--ezy-shape-color: #fffaea;
+	--ezy-browser-bg: #f5efe8;
+	--ezy-browser-bar-bg: #c4c4c4;
+	--ezy-browser-span-color-one: #ff0000;
+	--ezy-browser-span-color-two: #fcc63d;
+	--ezy-browser-span-color-three: #45b8c4;
+
+	background-color: var(--bs-body-bg);
+	display: flex;
+	align-items: center;
+	padding: 180px 0;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.ezy__httpcodes2 {
+		padding: 300px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__httpcodes2,
+.ezy__httpcodes2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__httpcodes2,
+.ezy__httpcodes2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #fff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-shape-color: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__httpcodes2,
+.ezy__httpcodes2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #fff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-shape-color: rgb(30, 39, 53);
+}
+
+/* heading and sub-heading */
+.ezy__httpcodes2-heading {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 1;
+	color: var(--ezy-content-color);
+}
+
+.ezy__httpcodes2-sub-heading {
+	font-size: 30px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__httpcodes2-heading {
+		font-size: 160px;
+	}
+
+	.ezy__httpcodes2-sub-heading {
+		font-size: 40px;
+	}
+}
+
+/* svg */
+.ezy__httpcodes2 svg {
+	z-index: -1;
+}
+
+/* shape */
+.ezy__httpcodes2-shape-four {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: var(--ezy-shape-color);
+	border-radius: 0 0 70% 0;
+	z-index: -2;
+}
+
+/* browser */
+.ezy__httpcodes2-browser {
+	background-color: var(--ezy-browser-bg);
+	width: 350px;
+	border-radius: 15px;
+}
+
+.ezy__httpcodes2-browser-bar {
+	background-color: var(--ezy-browser-bar-bg);
+	display: flex;
+	border-radius: 15px 15px 0 0;
+	padding: 10px;
+}
+
+.ezy__httpcodes2-browser-bar span {
+	width: 15px;
+	height: 15px;
+	background-color: var(--ezy-browser-span-color-one);
+	border-radius: 50%;
+	margin: 0 5px;
+}
+
+.ezy__httpcodes2-browser-bar span:nth-child(2) {
+	background-color: var(--ezy-browser-span-color-two);
+}
+
+.ezy__httpcodes2-browser-bar span:nth-child(3) {
+	background-color: var(--ezy-browser-span-color-three);
+}

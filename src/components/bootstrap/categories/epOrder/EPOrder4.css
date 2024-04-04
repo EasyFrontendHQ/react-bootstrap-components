@@ -1,0 +1,115 @@
+.ezy__eporder4 {
+	/* Bootstrap variables */
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: rgb(246, 246, 246);
+	--ezy-border-color: rgba(73, 73, 73, 0.3);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__eporder4,
+.ezy__eporder4.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__eporder4,
+.ezy__eporder4.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__eporder4,
+.ezy__eporder4.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* progress bar */
+.ezy__eporder4-progress::after {
+	content: "";
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	border-top: 2px dashed var(--ezy-theme-color);
+}
+
+.ezy__eporder4-progress span {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background-color: var(--ezy-card-bg);
+	border: 1px solid var(--ezy-border-color);
+	color: var(--bs-body-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 17px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.ezy__eporder4-progress span.active {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border: 1px solid var(--ezy-theme-color);
+}
+
+.ezy__eporder4 .card {
+	background-color: var(--ezy-card-bg);
+}
+
+.ezy__eporder4 h6 {
+	opacity: 0.6;
+}
+
+/* btn */
+.ezy__eporder4-btn {
+	color: #fff;
+	padding: 12px 25px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__eporder4-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+/* check btn */
+.ezy__eporder4-check {
+	width: 50px;
+	height: 50px;
+	font-size: 22px;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid var(--ezy-theme-color);
+	color: var(--ezy-theme-color);
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,143 @@
+.ezy__signin2 {
+	/* Bootstrap variables */
+	--bs-body-color: #333b7b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-form-card-bg: #ffffff;
+	--ezy-form-card-shadow: none;
+
+	background-color: var(--bs-body-bg);
+}
+
+/* Gray Block Style */
+.gray .ezy__signin2,
+.ezy__signin2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #ffffff;
+	--ezy-form-card-shadow: 0 16px 24px rgba(209, 223, 247, 0.25);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__signin2,
+.ezy__signin2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+	--bs-dark-rgb: 255, 255, 255;
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #253140;
+	--ezy-form-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__signin2,
+.ezy__signin2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+	--bs-dark-rgb: 255, 255, 255;
+
+	/* Easy Frontend variables */
+	--ezy-form-card-bg: #162231;
+	--ezy-form-card-shadow: none;
+}
+
+.ezy__signin2 .container {
+	min-height: 100vh;
+}
+
+.ezy__signin2-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__signin2-bg-holder {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 150px;
+	width: 100%;
+	float: right;
+}
+
+@media (min-width: 991px) {
+	.ezy__signin2-bg-holder {
+		width: 50vw;
+	}
+}
+
+.ezy__signin2-form-card {
+	background-color: transparent;
+	border: none;
+	box-shadow: var(--ezy-form-card-shadow);
+	/*border-radius: 15px;*/
+}
+
+.ezy__signin2-form-card * {
+	color: var(--bs-body-color);
+}
+
+.ezy__signin2 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, 0.14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__signin2 .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+
+.ezy__signin2-btn-submit {
+	padding: 12px 30px;
+	background-color: #333b7b;
+	color: #ffffff;
+}
+
+.ezy__signin2-btn-submit:hover {
+	color: #ffffff;
+}
+
+.ezy__signin2-btn {
+	padding: 12px 30px;
+}
+
+.ezy__signin2-btn,
+.ezy__signin2-btn * {
+	color: #ffffff;
+}
+
+.ezy__signin2-btn:hover {
+	color: #ffffff;
+}
+
+.ezy__signin2-or-separator {
+	position: relative;
+}
+
+.ezy__signin2-or-separator hr {
+	border-color: var(--bs-body-color);
+	opacity: 0.15;
+}
+
+.ezy__signin2-or-separator span {
+	background-color: var(--ezy-form-card-bg);
+	color: var(--bs-body-color);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3d(-50%, -50%, 0);
+	opacity: 0.8;
+}

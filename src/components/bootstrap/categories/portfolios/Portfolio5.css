@@ -1,0 +1,125 @@
+.ezy__portfolio5 {
+	/* Bootstrap variables */
+	--bs-body-color: #252d39;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-popup-bg-rgb: 255, 255, 255;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__portfolio5,
+.ezy__portfolio5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 246, 246, 246;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__portfolio5,
+.ezy__portfolio5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 30, 39, 53;
+}
+
+/* Dark Block Style */
+.dark .ezy__portfolio5,
+.ezy__portfolio5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 11, 23, 39;
+}
+
+.ezy__portfolio5-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio5-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__portfolio5-sub-heading {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--bs-body-color);
+}
+
+.ezy__portfolio5-item {
+	border-radius: 12px;
+	overflow: hidden;
+	transition: transform 0.25s ease-in-out;
+}
+
+.ezy__portfolio5-item:hover,
+.ezy__portfolio5-item.active {
+	box-shadow: 0 8px 13px rgba(82, 95, 128, 0.2);
+	transform: translateY(-5px);
+}
+
+.ezy__portfolio5-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 12px;
+	background-color: rgba(var(--ezy-popup-bg-rgb), 0.7);
+	backdrop-filter: blur(8px);
+	transform: scale(0.9);
+	opacity: 0;
+	transition: box-shadow 0.25s ease-in-out, opacity 0.25s ease-in-out,
+		transform 0.25s ease-in-out;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ezy__portfolio5-content * {
+	color: var(--bs-body-color);
+}
+
+.ezy__portfolio5-item:hover .ezy__portfolio5-content,
+.ezy__portfolio5-item.active .ezy__portfolio5-content {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.ezy__portfolio5-btn-filter {
+	padding: 7px 20px;
+	border-color: var(--ezy-theme-color);
+	color: var(--ezy-theme-color);
+}
+
+.ezy__portfolio5-btn-filter:hover,
+.ezy__portfolio5-btn-filter.active {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+}

@@ -1,0 +1,97 @@
+.ezy__travel3 {
+	/* Bootstrap variables */
+	--bs-body-color: #121315;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #fff;
+	--ezy-card-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+	--ezy-rating-rgb: 255, 215, 0;
+	--ezy-body-color-invert: #f6f6f6;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__travel3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__travel3,
+.ezy__travel3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+	--ezy-body-color-invert: #ffffff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__travel3,
+.ezy__travel3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(64, 65, 86);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(64, 65, 86);
+	--ezy-body-color-invert: rgb(64, 65, 86);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__travel3,
+.ezy__travel3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(46, 47, 65);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(64, 65, 86);
+	--ezy-body-color-invert: rgb(46, 47, 65);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+}
+
+.ezy__travel3-heading {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__travel3-heading {
+		font-size: 55px;
+	}
+}
+
+.ezy__travel3-sub-heading {
+	font-size: 18px !important;
+	line-height: 28px;
+	opacity: 0.6 !important;
+}
+
+.ezy__travel3-item {
+	background-color: var(--ezy-item-bg);
+	box-shadow: var(--ezy-card-shadow);
+}
+
+.ezy__travel3-price {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: #414257;
+	color: #ffffff;
+}
+
+.ezy__travel3 p {
+	font-size: 14px;
+	opacity: 0.45;
+}

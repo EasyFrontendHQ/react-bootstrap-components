@@ -1,0 +1,197 @@
+.ezy__epcart5 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-button-color: #fff;
+	--ezy-card-bg: #f5f7fd;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcart5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epcart5,
+.ezy__epcart5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-card-bg: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epcart5,
+.ezy__epcart5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__epcart5,
+.ezy__epcart5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+.ezy__epcart5-heading a {
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--bs-body-color);
+	text-decoration: none;
+}
+
+.ezy__epcart5-heading a:hover {
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+@media (min-width: 768px) {
+	.ezy__epcart5-heading a {
+		font-size: 17px;
+		line-height: 19px;
+	}
+}
+
+.ezy__epcart5-price {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epcart5-title {
+	font-size: 15px;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcart5-image {
+	min-width: 50px;
+	width: 50px;
+	height: auto;
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.05);
+	border: 1px solid rgba(var(--ezy-secondary-color-rgb), 0.05);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcart5-image {
+		min-width: 120px;
+		width: 120px;
+	}
+}
+
+.ezy__epcart5-qty {
+	width: 95px;
+}
+
+.ezy__epcart5-qty .btn {
+	font-size: 13px;
+	font-weight: bold;
+	background-color: transparent;
+	color: rgb(var(--ezy-theme-color-rgb));
+	padding: 0;
+	border-radius: 0 !important;
+	border: none;
+	width: 30px;
+	height: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ezy__epcart5-qty .btn:hover {
+	background-color: rgb(var(--ezy-theme-color-rgb));
+	color: var(--ezy-button-color);
+}
+
+.ezy__epcart5-qty .form-control {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcart5-qty .input-group-text,
+.ezy__epcart5-qty .form-control {
+	border-color: rgb(var(--ezy-secondary-color-rgb), 0.7);
+	background-color: transparent;
+	height: 40px;
+	border-radius: 8px !important;
+	overflow: hidden;
+}
+
+.ezy__epcart5-btn {
+	font-size: 14px;
+	border-color: rgb(var(--ezy-theme-color-rgb));
+	background-color: rgb(var(--ezy-theme-color-rgb));
+	color: var(--ezy-button-color);
+	height: 42px;
+	min-width: 42px;
+}
+
+.ezy__epcart5-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	color: var(--ezy-button-color);
+}
+
+.ezy__epcart5-del {
+	color: rgb(var(--bs-body-color)) !important;
+	background-color: transparent;
+	border: 0;
+	height: 35px;
+	width: 35px;
+}
+
+.ezy__epcart5-del:hover {
+	border: 0;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.1);
+}
+
+.ezy__epcart5-card,
+.ezy__epcart5-order {
+	border: none;
+	border-radius: 10px;
+}
+
+.ezy__epcart5-card {
+	background-color: var(--ezy-card-bg);
+}
+
+.ezy__epcart5-order {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.1);
+}
+
+.ezy__epcart5-hr {
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.05);
+	opacity: 1;
+}
+
+.ezy__epcart5-content {
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}

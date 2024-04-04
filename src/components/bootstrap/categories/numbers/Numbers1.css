@@ -1,0 +1,63 @@
+.ezy__numbers1 {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(50, 62, 80);
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	padding: 50px 0;
+	background-color: var(--bs-body-bg);
+}
+
+/* Gray Block Style */
+.gray .ezy__numbers1,
+.ezy__numbers1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__numbers1,
+.ezy__numbers1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__numbers1,
+.ezy__numbers1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__numbers1-tag-code {
+	color: var(--bs-body-color);
+}
+
+.ezy__numbers1 {
+	color: var(--bs-body-color);
+}
+
+.ezy__numbers1-tag-code span,
+.ezy__numbers1 strong,
+.ezy__numbers1 .btn {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__numbers1 .btn {
+	border-color: var(--ezy-theme-color);
+	border-radius: 0;
+	font-size: 14px;
+	font-style: normal;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.ezy__numbers1 .btn:hover {
+	background-color: var(--ezy-theme-color);
+	color: var(--bs-body-color);
+}

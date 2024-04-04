@@ -1,0 +1,86 @@
+.ezy__numbers2 {
+	--bs-body-color: #262e3b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__numbers2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__numbers2,
+.ezy__numbers2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__numbers2,
+.ezy__numbers2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__numbers2,
+.ezy__numbers2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__numbers2-heading {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__numbers2-heading {
+		font-size: 45px;
+	}
+}
+
+.ezy__numbers2-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+/* card */
+.ezy__numbers2 .card {
+	background-color: transparent !important;
+	color: var(--bs-body-color);
+}
+
+.ezy__numbers2 .card h3 {
+	font-size: 45px;
+	font-weight: 900;
+	color: var(--ezy-theme-color);
+}
+
+.ezy__numbers2 .card h5 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.ezy__numbers2 .card p {
+	font-size: 16px;
+	opacity: 0.8;
+}
+
+.ezy__numbers2 img {
+	border-radius: 10px;
+}

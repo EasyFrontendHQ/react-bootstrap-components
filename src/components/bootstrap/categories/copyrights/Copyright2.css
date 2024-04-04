@@ -1,0 +1,13 @@
+.ezy__copyright2 {
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--ezy-theme-color);
+	color: #fff;
+}
+
+.ezy__copyright2 > div {
+	background-color: var(--ezy-theme-color);
+	padding: 48px 0;
+}

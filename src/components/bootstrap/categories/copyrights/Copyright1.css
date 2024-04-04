@@ -1,0 +1,35 @@
+.ezy__copyright1 {
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--ezy-theme-color);
+	color: #fff;
+}
+
+.ezy__copyright1 > div {
+	background-color: var(--ezy-theme-color);
+	padding: 48px 0;
+}
+
+.ezy__copyright1-nav .nav-link {
+	color: #fff;
+}
+
+.ezy__copyright1-nav .nav-link:hover {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.ezy__copyright1-social li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 6px 8px;
+}
+
+.ezy__copyright1-social li a {
+	color: #fff;
+}
+
+.ezy__copyright1-social li a:hover {
+	opacity: 0.8;
+}

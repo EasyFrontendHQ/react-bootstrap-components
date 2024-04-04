@@ -1,0 +1,88 @@
+.ezy__secheader1 {
+	/* Bootstrap variables */
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: rgb(246, 246, 246);
+	--ezy-svg-color: #fff;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__secheader1,
+.ezy__secheader1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+	--ezy-svg-color: #f6f6f6;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__secheader1,
+.ezy__secheader1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(30, 39, 53);
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__secheader1,
+.ezy__secheader1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(11, 23, 39);
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+.ezy__secheader1-heading {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__secheader1-heading {
+		font-size: 60px;
+	}
+}
+
+.ezy__secheader1-sub-heading {
+	font-size: 20px;
+	line-height: 1.2px;
+	opacity: 0.8;
+}
+
+/*  ezy__secheader1-top */
+.ezy__secheader1-top {
+	background-color: var(--ezy-card-bg);
+	padding: 70px 0;
+}
+@media (min-width: 768px) {
+	.ezy__secheader1-top {
+		padding: 100px 0;
+	}
+}
+
+/* svg */
+@media (min-width: 768px) {
+	.ezy__secheader1-svg {
+		position: absolute;
+		bottom: 60px;
+		right: 300px;
+	}
+}

@@ -1,0 +1,106 @@
+.ezy__epcategory1 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: #ffffff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-img-bg: #edf8eb;
+	--ezy-card-bg: #fff;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epcategory1,
+.ezy__epcategory1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epcategory1,
+.ezy__epcategory1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+}
+
+/* Dark Block Style */
+.dark .ezy__epcategory1,
+.ezy__epcategory1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+}
+
+.ezy__epcategory1 a {
+	text-decoration: none;
+}
+
+.ezy__epcategory1-card {
+	border-radius: 10px;
+	background-color: var(--ezy-card-bg);
+}
+
+.ezy__epcategory1-heading {
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory1-heading {
+		font-size: 40px;
+		line-height: 45px;
+	}
+}
+
+.ezy_ecategory1-card-img {
+	background-color: var(--ezy-img-bg);
+	height: 152px;
+	width: auto;
+	border-radius: 10px;
+}
+
+.ezy__epcategory1-title {
+	font-size: 18px;
+	color: var(--bs-body-color);
+}
+
+.ezy_ecategory1-card-img img {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+}
+
+.ezy__epcategory1-btn {
+	padding: 10px 45px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__epcategory1-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__epcategory1-row {
+	margin-left: -4px;
+	margin-right: -4px;
+}

@@ -1,0 +1,108 @@
+.ezy__featured3 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: rgb(239, 244, 253);
+	--ezy-item-icon-bg: rgb(239, 244, 253);
+	--ezy-item-icon-shodow: 0 4px 34px 0 rgba(163, 190, 241, 0.12);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__featured3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__featured3,
+.ezy__featured3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(239, 244, 253);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+	--ezy-item-icon-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__featured3,
+.ezy__featured3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(11, 23, 39);
+	--ezy-item-icon-bg: rgb(11, 23, 39);
+	--ezy-item-icon-shodow: 0 7px 34px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Dark Block Style */
+.dark .ezy__featured3,
+.ezy__featured3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(30, 39, 53);
+	--ezy-item-icon-bg: rgb(30, 39, 53);
+	--ezy-item-icon-shodow: 0 7px 34px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ezy__featured3-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__featured3-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__featured3-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__featured3-item {
+	background-color: var(--ezy-item-bg);
+	border-radius: 20px;
+}
+
+.ezy__featured3-icon {
+	width: 74px;
+	height: 74px;
+	background-color: var(--ezy-item-icon-bg);
+	color: var(--ezy-theme-color);
+	border-radius: 50%;
+	font-size: 32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin: -25px;
+	box-shadow: var(--ezy-item-icon-shodow);
+	z-index: 1;
+}
+
+.ezy__featured3-title {
+	color: var(--bs-body-color);
+}
+
+.ezy__featured3-content {
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}

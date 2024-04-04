@@ -1,0 +1,79 @@
+.ezy__richcontents2 {
+	/* Bootstrap variables */
+	--bs-body-color: #262e3a;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	padding: 60px 0;
+	background-color: var(--bs-body-bg);
+}
+@media (min-width: 768px) {
+	.ezy__richcontents2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__richcontents2,
+.ezy__richcontents2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__richcontents2,
+.ezy__richcontents2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__richcontents2,
+.ezy__richcontents2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__richcontents2-heading {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: var(--bs-body-color);
+}
+@media (min-width: 768px) {
+	.ezy__richcontents2-heading {
+		font-size: 45px;
+	}
+}
+.ezy__richcontents2-sub-heading {
+	font-size: 17px !important;
+	font-weight: 500;
+	line-height: 25px !important;
+	color: var(--bs-body-color);
+}
+
+.ezy__richcontents2 .btn {
+	padding: 12px 25px;
+	transition: 0.5s;
+	color: #fff;
+}
+.ezy__richcontents2-btn {
+	color: var(--bs-body-color) !important;
+}
+.ezy__richcontents2 p {
+	line-height: 28px;
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}
+
+@media (min-width: 991px) {
+	.ezy__richcontents2-contents {
+		column-count: 2;
+		column-gap: 30px;
+	}
+}

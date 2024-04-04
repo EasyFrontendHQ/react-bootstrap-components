@@ -1,0 +1,136 @@
+.ezy__pricing2 {
+	/* Bootstrap variables */
+	--bs-body-color: #252d39;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #f2f6fe;
+	--ezy-item-border-color: rgba(0, 0, 0, 0.08);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__pricing2,
+.ezy__pricing2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(239, 244, 253);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+	--ezy-item-border-color: rgba(19, 19, 19, 0.08);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__pricing2,
+.ezy__pricing2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #243548;
+	--ezy-item-border-color: rgba(229, 229, 229, 0.08);
+}
+
+/* Dark Block Style */
+.dark .ezy__pricing2,
+.ezy__pricing2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #101d2c;
+	--ezy-item-border-color: rgba(255, 255, 255, 0.08);
+}
+
+.ezy__pricing2-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing2-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__pricing2-sub-heading {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--bs-body-color);
+}
+
+.ezy__pricing2-item {
+	background-color: var(--ezy-item-bg);
+	transition: transform 0.25s ease-in-out;
+}
+
+.ezy__pricing2-item.active {
+	background-color: var(--ezy-item-active-bg);
+}
+
+.ezy__pricing2-price,
+.ezy-pricing2-features,
+.ezy__pricing2-note,
+.ezy__pricing2-title {
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 991px) {
+	.border-lg-end {
+		border-right: 1px solid;
+	}
+}
+
+.ezy__pricing2 .border-lg-end {
+	border-color: var(--ezy-item-border-color) !important;
+}
+
+.ezy__pricing2-item.active .ezy__pricing2-price,
+.ezy__pricing2-item.active .ezy-pricing2-features,
+.ezy__pricing2-item.active .ezy__pricing2-note,
+.ezy__pricing2-item.active .ezy__pricing2-title {
+	color: var(--ezy-item-active-color);
+}
+
+.ezy__pricing2-btn {
+	padding: 12px 30px;
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__pricing2-btn.btn-outline {
+	color: rgba(var(--ezy-theme-color-rgb), 1);
+	background-color: transparent;
+}
+
+.ezy__pricing2 .btn-outline-primary:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.75);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.75);
+}
+
+.ezy__pricing2-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__pricing2 .text-primary {
+	color: var(--ezy-theme-color) !important;
+}

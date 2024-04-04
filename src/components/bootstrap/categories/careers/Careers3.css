@@ -1,0 +1,103 @@
+.ezy__careers3 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: #fff;
+
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #f6f7f8;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+@media (min-width: 768px) {
+	.ezy__careers3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__careers3,
+.ezy__careers3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* easy frontend variables */
+	--ezy-card-bg: #f0f0f0;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__careers3,
+.ezy__careers3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(241, 241, 241);
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* easy frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__careers3,
+.ezy__careers3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(255, 255, 255);
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* easy frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* heading and sub-heading */
+.ezy__careers3-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+.ezy__careers3-sub-heading {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	opacity: 0.8;
+}
+@media (min-width: 991px) {
+	.ezy__careers3-heading {
+		font-size: 45px;
+	}
+}
+
+/* card */
+.ezy__careers3-card {
+	color: var(--bs-body-color);
+	background-color: var(--ezy-card-bg);
+	border: 0;
+}
+.ezy__careers3-title {
+	color: var(--bs-body-color);
+}
+.ezy__careers3-sub-title {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	opacity: 0.8;
+}
+.ezy__careers3-details {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	opacity: 0.8;
+}
+/* btn */
+.ezy__careers3-btn {
+	color: var(--ezy-theme-color);
+	background-color: transparent;
+	border: 0;
+	font-size: 16px;
+	font-weight: 500;
+}
+.ezy__careers3-btn:hover {
+	color: rgba(var(--ezy-theme-color-rgb), 0.8);
+	background-color: transparent;
+	border: 0;
+}

@@ -1,0 +1,68 @@
+.ezy__incentives2 {
+	/* Bootstrap variables */
+	--bs-body-color: #000;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__incentives2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__incentives2,
+.ezy__incentives2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__incentives2,
+.ezy__incentives2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__incentives2,
+.ezy__incentives2.dark {
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__incentives2-heading {
+	font-size: 24px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__incentives2-heading {
+		font-size: 45px;
+		line-height: 35px;
+	}
+}
+
+.ezy__incentives2-icon {
+	font-size: 60px;
+	color: var(--ezy-theme-color);
+}
+.ezy__incentives2 p {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.ezy__incentives2 p {
+		width: 80%;
+	}
+}

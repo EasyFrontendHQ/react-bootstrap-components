@@ -1,0 +1,95 @@
+.ezy__epspecification3 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-card-bg: #f5f7fd;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 50px 0;
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__epspecification3,
+.ezy__epspecification3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-card-bg: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epspecification3,
+.ezy__epspecification3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__epspecification3,
+.ezy__epspecification3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+.ezy__epspecification3 a {
+	font-weight: 500;
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: none;
+}
+
+.ezy__epspecification3 a:hover {
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: underline;
+}
+
+.ezy__epspecification3-heading a {
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: normal;
+	color: var(--bs-body-color);
+	text-decoration: none;
+	display: inline-block;
+}
+
+.ezy__epspecification3-card {
+	background-color: var(--ezy-card-bg);
+	border: none;
+	border-radius: 10px;
+}
+
+.ezy__epspecification3 .table {
+	border-color: rgba(var(--ezy-secondary-color-rgb), 0.05);
+}
+
+.ezy__epspecification3 .table th {
+	font-weight: 500;
+}
+
+.ezy__epspecification3 .table tr td:first-child {
+	background-color: rgba(var(--ezy-secondary-color-rgb), 0.02);
+}
+
+.ezy__epspecification3 .table tr td,
+.ezy__epspecification3 .table tr th {
+	color: var(--bs-body-color);
+}

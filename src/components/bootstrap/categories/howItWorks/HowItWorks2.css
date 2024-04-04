@@ -1,0 +1,102 @@
+.ezy__howitworks2 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__howitworks2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__howitworks2,
+.ezy__howitworks2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__howitworks2,
+.ezy__howitworks2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__howitworks2,
+.ezy__howitworks2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__howitworks2-heading {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.3;
+	color: var(--bs-body-color);
+}
+@media (min-width: 768px) {
+	.ezy__howitworks2-heading {
+		font-size: 45px;
+	}
+}
+.ezy__howitworks2-sub-heading {
+	font-size: 17px;
+	line-height: 1.5;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+/* img */
+.ezy__howitworks2 img {
+	border-radius: 20px;
+}
+.ezy__howitworks2-number {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--ezy-theme-color);
+	color: #fff;
+}
+.ezy__howitworks2-title {
+	font-weight: 500;
+	color: var(--bs-body-color);
+}
+.ezy__howitworks2-content {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+.ezy__howitworks2-play {
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: var(--ezy-theme-color);
+	color: #fff;
+	font-size: 18px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.ezy__howitworks2-play:hover {
+	color: #fff;
+}

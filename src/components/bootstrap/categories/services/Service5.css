@@ -1,0 +1,135 @@
+.ezy__service5 {
+	/* Bootstrap variables */
+	--bs-body-color: #2b323c;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-list-bg: #ffffff;
+	--ezy-list-shadow: 0px 8px 44px rgba(227, 238, 255, 0.48);
+	--ezy-card-bg: #f2f6fe;
+	--ezy-card-shadow: 0px 8px 44px rgba(227, 238, 255, 0.48);
+
+	background: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__service5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__service5,
+.ezy__service5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-list-bg: #fff;
+	--ezy-list-shadow: 0px 8px 44px rgba(203, 224, 250, 0.48);
+	--ezy-card-bg: #dde7fb;
+	--ezy-card-shadow: 0px 8px 44px rgba(203, 224, 255, 0.48);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__service5,
+.ezy__service5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-list-bg: #313d4b;
+	--ezy-list-shadow: none;
+	--ezy-card-bg: #2a3749;
+	--ezy-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__service5,
+.ezy__service5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-list-bg: #162231;
+	--ezy-list-shadow: none;
+	--ezy-card-bg: #121d2c;
+	--ezy-card-shadow: none;
+}
+
+.ezy__service5-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__service5-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__service5-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+.ezy__service5-list {
+	background-color: var(--ezy-list-bg);
+	box-shadow: var(--ezy-list-shadow);
+	border-radius: 30px;
+}
+
+.ezy__service5-card {
+	background-color: transparent;
+	border-radius: 20px;
+	height: 100%;
+	border: none;
+	transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out,
+		transform 0.25s ease-in-out;
+}
+
+.ezy__service5-card:hover,
+.ezy__service5-card.active {
+	background-color: var(--ezy-card-bg);
+	box-shadow: var(--ezy-card-shadow);
+	transform: translateY(-4px);
+}
+
+.ezy__service5-card [class*="col-"]:nth-of-type(1n) .ezy__service5-icon {
+	background-color: rgba(252, 110, 92, 0.1);
+	color: rgba(252, 110, 92, 1);
+}
+
+.ezy__service5-card [class*="col-"]:nth-of-type(2n) .ezy__service5-icon {
+	background-color: rgba(4, 121, 193, 0.1);
+	color: rgba(4, 121, 193, 1);
+}
+
+.ezy__service5-card [class*="col-"]:nth-of-type(3n) .ezy__service5-icon {
+	background-color: rgba(255, 214, 0, 0.1);
+	color: rgba(255, 214, 0, 1);
+}
+
+.ezy__service5-icon {
+	font-size: 32px;
+}
+
+.ezy__service5-title {
+	color: var(--bs-body-color);
+}
+
+.ezy__service5-content {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}

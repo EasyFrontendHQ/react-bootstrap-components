@@ -1,0 +1,81 @@
+.ezy__faq5 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #f9f9fa;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__faq5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__faq5,
+.ezy__faq5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__faq5,
+.ezy__faq5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__faq5,
+.ezy__faq5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: rgb(30, 39, 53);
+}
+
+.ezy__faq5-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__faq5-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__faq5-sub-heading {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--bs-body-color);
+}
+
+.ezy__faq5-item {
+	background-color: var(--ezy-item-bg);
+	border-radius: 10px;
+}
+
+.ezy__faq5-item * {
+	color: var(--bs-body-color);
+}

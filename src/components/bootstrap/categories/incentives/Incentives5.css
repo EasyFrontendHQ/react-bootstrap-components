@@ -1,0 +1,137 @@
+.ezy__incentives5 {
+	/* Bootstrap variables */
+	--bs-body-color: #000;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #ffffff;
+	--ezy-card-shadow: 0px 6px 44px rgba(173, 174, 197, 0.2);
+	--ezy-body-color-invert: rgb(246, 246, 246);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	position: relative;
+	padding: 60px 0;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__incentives5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__incentives5,
+.ezy__incentives5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-body-color-invert: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__incentives5,
+.ezy__incentives5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+	--ezy-body-color-invert: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__incentives5,
+.ezy__incentives5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+	--ezy-card-shadow: 0px 6px 44px rgba(0, 0, 0, 0.2);
+	--ezy-body-color-invert: rgb(11, 23, 39);
+}
+
+.ezy__incentives5-topbar {
+	background-position: top right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+	z-index: 1;
+}
+
+.ezy__incentives5-topbar-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: var(--ezy-theme-color);
+	opacity: 0.6;
+	border-radius: 6px;
+	z-index: -1;
+}
+
+.ezy__incentives5-topbar-card {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+}
+
+.ezy__incentives5-divider {
+	border-bottom: 1px dotted var(--ezy-body-color-invert);
+}
+.ezy__incentives5-card {
+	margin-top: -20px;
+	background-color: var(--ezy-card-bg);
+	box-shadow: var(--ezy-card-shadow);
+	position: relative;
+	z-index: 2;
+	border-radius: 10px;
+}
+.ezy__incentives5-icon {
+	background-color: var(--ezy-body-color-invert);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 90px !important;
+	color: var(--ezy-theme-color);
+}
+
+.ezy__incentives5 p {
+	font-size: 18px;
+	line-height: 1.4;
+	opacity: 0.7;
+}
+.ezy__incentives5 a {
+	text-decoration: none;
+	color: var(--ezy-theme-color);
+	font-size: 18px;
+	line-height: 1.4;
+	opacity: 0.8;
+}
+.ezy__incentives5 a:hover {
+	text-decoration: underline;
+}
+
+.ezy__incentives5 h5 {
+	min-height: 35px;
+	font-weight: 400;
+	font-size: 26px !important;
+}
+@media (min-width: 768px) {
+	.ezy__incentives5 h5 {
+		min-height: 60px;
+	}
+}

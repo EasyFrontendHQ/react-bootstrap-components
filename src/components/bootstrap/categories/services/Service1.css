@@ -1,0 +1,97 @@
+.ezy__service1 {
+	/* Bootstrap variables */
+	--bs-body-color: #2b323c;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__service1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__service1,
+.ezy__service1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__service1,
+.ezy__service1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__service1,
+.ezy__service1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__service1-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__service1-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__service1-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+.ezy__service1-card [class*="col-"]:nth-of-type(1n) .ezy__service1-icon {
+	background-color: rgba(252, 110, 92, 0.1);
+	color: rgba(252, 110, 92, 1);
+}
+
+.ezy__service1-card [class*="col-"]:nth-of-type(2n) .ezy__service1-icon {
+	background-color: rgba(4, 121, 193, 0.1);
+	color: rgba(4, 121, 193, 1);
+}
+
+.ezy__service1-card [class*="col-"]:nth-of-type(3n) .ezy__service1-icon {
+	background-color: rgba(255, 214, 0, 0.1);
+	color: rgba(255, 214, 0, 1);
+}
+
+.ezy__service1-icon {
+	width: 74px;
+	height: 74px;
+	border-radius: 10px;
+	font-size: 32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ezy__service1-title {
+	color: var(--bs-body-color);
+}
+
+.ezy__service1-content {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}

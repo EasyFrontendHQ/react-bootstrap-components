@@ -1,0 +1,53 @@
+.ezy__numbers5 {
+	--bs-body-color: #262e3b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	padding: 100px 0;
+}
+
+@media (min-width: 991px) {
+	.ezy__numbers5 {
+		padding: 150px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__numbers5,
+.ezy__numbers5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__numbers5,
+.ezy__numbers5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__numbers5,
+.ezy__numbers5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__numbers5 h3 {
+	font-size: 45px;
+	font-weight: 900;
+	color: var(--ezy-theme-color);
+}
+
+.ezy__numbers5 h5 {
+	font-size: 18px;
+	font-weight: 500;
+	opacity: 0.8;
+}

@@ -1,0 +1,64 @@
+.ezy__comingsoon1 {
+	/* Bootstrap variables */
+	--bs-body-color: #262830;
+	--bs-body-bg: #fff;
+
+	/* Easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	background-color: var(--bs-body-bg);
+	display: flex;
+	align-items: center;
+	padding: 60px 0;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.ezy__comingsoon1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__comingsoon1,
+.ezy__comingsoon1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__comingsoon1,
+.ezy__comingsoon1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__comingsoon1,
+.ezy__comingsoon1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+/* heading and sub-heading */
+.ezy__comingsoon1-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__comingsoon1-heading {
+		font-size: 45px;
+	}
+}
+
+.ezy__comingsoon1-sub-heading {
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}

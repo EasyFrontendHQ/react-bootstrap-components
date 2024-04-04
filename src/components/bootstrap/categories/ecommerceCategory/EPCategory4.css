@@ -1,0 +1,119 @@
+.ezy__epcategory4 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: #ffffff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #fff;
+	--ezy-img-overlay: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0),
+		rgba(0, 0, 0, 0.4)
+	);
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory4 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epcategory4,
+.ezy__epcategory4.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epcategory4,
+.ezy__epcategory4.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-img-overlay: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0),
+		rgba(45, 45, 45, 0.4)
+	);
+}
+
+/* Dark Block Style */
+.dark .ezy__epcategory4,
+.ezy__epcategory4.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-img-overlay: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0),
+		rgba(45, 45, 45, 0.4)
+	);
+}
+
+.ezy__epcategory4-heading {
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory4-heading {
+		font-size: 40px;
+		line-height: 45px;
+	}
+}
+
+.ezy__epcategory4 a {
+	text-decoration: none;
+}
+
+.ezy__epcategory4-card {
+	background-color: var(--ezy-card-bg);
+	z-index: 11;
+}
+
+.ezy__epcategory4-card::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: var(--ezy-img-overlay);
+	z-index: -1;
+}
+
+.ezy__epcategory4-card img {
+	max-width: 100%;
+	max-height: 150px;
+	width: auto;
+}
+.ezy__epcategory4-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcategory4-btn {
+	font-weight: 700;
+	padding: 10px 45px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__epcategory4-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}

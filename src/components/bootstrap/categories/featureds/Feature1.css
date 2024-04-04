@@ -1,0 +1,40 @@
+.ezy__featured1 {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background: #70358c;
+	background: -webkit-linear-gradient(131deg, #b4237a, #70358c);
+	background: linear-gradient(131deg, #b4237a, #70358c);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__featured1 {
+		padding: 100px 0;
+	}
+}
+
+.ezy__featured1-icon {
+	width: 74px;
+	height: 74px;
+	background-color: rgba(255, 255, 255, 0.15);
+	color: #ffffff;
+	border-radius: 50%;
+	font-size: 32px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ezy__featured1-title {
+	color: var(--bs-body-color);
+}
+
+.ezy__featured1-content {
+	color: var(--bs-body-color);
+}

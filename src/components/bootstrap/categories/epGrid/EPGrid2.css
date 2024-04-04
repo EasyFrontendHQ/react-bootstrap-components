@@ -1,0 +1,127 @@
+.ezy__epgrid2 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: #ffffff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-icon-color: #23262f;
+	--ezy-rating-color: #eec200;
+	--ezy-button-color: #fff;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__epgrid2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epgrid2,
+.ezy__epgrid2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epgrid2,
+.ezy__epgrid2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-icon-color: #c2c2c2;
+}
+
+/* Dark Block Style */
+.dark .ezy__epgrid2,
+.ezy__epgrid2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-icon-color: #c2c2c2;
+}
+
+.ezy__epgrid2-heading {
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__epgrid2-heading {
+		font-size: 40px;
+	}
+}
+
+.ezy__epgrid2-row {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.ezy__epgrid2-row [class*="col-"] {
+	padding: 8px;
+}
+
+.ezy__epgrid2-card {
+	background-color: transparent;
+	height: 100%;
+}
+
+.ezy__epgrid2-title {
+	font-size: 16px;
+	line-height: 21px;
+	color: var(--bs-body-color);
+}
+.ezy__epgrid2-title:hover {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__epgrid2-price,
+.ezy__epgrid2-ratings {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+.ezy__epgrid2-price {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__epgrid2-rating {
+	color: var(--ezy-rating-color);
+}
+
+.ezy__epgrid2-cart {
+	color: var(--bs-body-color);
+	font-size: 16px;
+}
+
+.ezy__epgrid2-cart:hover {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__epgrid2-btn {
+	font-weight: 700;
+	padding: 10px 45px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__epgrid2-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__epgrid2 a {
+	text-decoration: none;
+}

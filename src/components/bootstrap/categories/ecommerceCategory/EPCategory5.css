@@ -1,0 +1,109 @@
+.ezy__epcategory5 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #fff;
+	--ezy-card-shadow: 0 4px 34px 0 rgba(93, 104, 164, 0.2);
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory5 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epcategory5,
+.ezy__epcategory5.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epcategory5,
+.ezy__epcategory5.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-card-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__epcategory5,
+.ezy__epcategory5.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #162231;
+	--ezy-card-shadow: none;
+}
+
+.ezy__epcategory5-heading {
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__epcategory5-heading {
+		font-size: 40px;
+		line-height: 45px;
+	}
+}
+
+.ezy__epcategory5 a {
+	text-decoration: none;
+}
+
+.ezy__epcategory5-card {
+	box-shadow: var(--ezy-card-shadow);
+	background-color: var(--ezy-card-bg);
+	border-radius: 10px;
+	border: 0;
+}
+
+.ezy__epcategory5-card img {
+	max-height: 110px;
+	max-width: 100%;
+	width: auto;
+	object-fit: cover;
+}
+
+.ezy__epcategory5-card-title {
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcategory5-card-text {
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}
+
+.ezy__epcategory5-btn {
+	font-weight: 700;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcategory5-btn:hover {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__epcategory5-row {
+	margin-left: -8px;
+	margin-right: -8px;
+}

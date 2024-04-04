@@ -1,0 +1,100 @@
+.ezy__eohistory3 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #f6f6f6;
+
+	background: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__eohistory3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__eohistory3,
+.ezy__eohistory3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__eohistory3,
+.ezy__eohistory3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__eohistory3,
+.ezy__eohistory3.dark {
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* card */
+.ezy__eohistory3-card {
+	background-color: var(--ezy-card-bg);
+}
+/* btn */
+.ezy__eohistory3-btn {
+	color: var(--bs-body-color);
+	padding: 7px 20px;
+}
+.ezy__eohistory3-btn:hover {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color) !important;
+}
+
+/* innner card */
+.ezy__eohistory3-title {
+	font-size: 22px;
+	color: var();
+}
+.ezy__eohistory3-price {
+	font-size: 18px;
+	font-weight: 700;
+}
+.ezy__eohistory3-status {
+	padding: 7px 20px;
+	max-width: 120px;
+}
+.ezy__eohistory3-status.completed {
+	background-color: rgba(58, 94, 222, 0.1);
+	color: rgb(58, 94, 222);
+}
+.ezy__eohistory3-status.inprogress {
+	background-color: rgba(80, 184, 60, 0.1);
+	color: rgba(80, 184, 60, 1);
+}
+.ezy__eohistory3-status.failed {
+	background-color: rgba(255, 0, 0, 0.1);
+	color: rgba(255, 0, 0, 1);
+}
+.ezy__eohistory3 a {
+	text-decoration: none;
+	color: var(--bs-body-color);
+}
+.ezy__eohistory3 a:hover {
+	color: var(--ezy-theme-color);
+}

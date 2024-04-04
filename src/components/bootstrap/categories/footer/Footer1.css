@@ -1,0 +1,67 @@
+.ezy__footer1 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	padding: 40px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__footer1 {
+		padding: 60px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__footer1,
+.ezy__footer1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__footer1,
+.ezy__footer1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+.dark .ezy__footer1,
+.ezy__footer1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__footer1-nav .nav-link {
+	color: var(--bs-body-color);
+}
+
+.ezy__footer1-nav .nav-link:hover {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+.ezy__footer1-social li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 6px 8px;
+}
+
+.ezy__footer1-social li a {
+	color: var(--bs-body-color);
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+}
+
+.ezy__footer1-social li a:hover {
+	color: var(--ezy-theme-color);
+}

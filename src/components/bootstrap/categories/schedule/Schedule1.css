@@ -1,0 +1,167 @@
+.ezy__schedule1 {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(50, 62, 80);
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-body-color-invert: #fff;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__schedule1,
+.ezy__schedule1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__schedule1,
+.ezy__schedule1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__schedule1,
+.ezy__schedule1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__schedule1-heading-line {
+	position: absolute;
+	bottom: -55px;
+	right: 21px;
+	display: none;
+	transform-origin: 0 50%;
+	transform: rotate(90deg) translate3d(-100%, 0, 0);
+	z-index: 11;
+}
+
+@media (min-width: 768px) {
+	.ezy__schedule1-heading-line {
+		display: block;
+	}
+}
+
+.ezy__schedule1-long-line {
+	width: 120px;
+	height: 2px !important;
+	background-color: var(--ezy-theme-color);
+	position: relative;
+	top: -4px;
+	opacity: 1;
+}
+
+.ezy__schedule1-start {
+	height: 1rem;
+	position: relative;
+	display: inline-block;
+	left: 0;
+	top: 0;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0 5px;
+	transform: rotate(180deg);
+}
+
+.ezy__schedule1-headline {
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 52px;
+	z-index: 1;
+	color: rgb(37, 45, 58);
+}
+
+.ezy__schedule1-headline::after {
+	width: 110px;
+	height: 5px;
+	content: "";
+	position: absolute;
+	background-color: var(--ezy-theme-color);
+	bottom: 15px;
+	z-index: -1;
+	transform: translate3d(-50%, 0, 0);
+}
+
+@media (min-width: 768px) {
+	.ezy__schedule1-headline {
+		font-size: 50px;
+		line-height: 42px;
+	}
+}
+
+.ezy__schedule1-wrapper {
+	position: absolute;
+	vertical-align: middle;
+	top: 0;
+	bottom: 0;
+	background-image: none;
+	background-size: cover;
+	background-position: top;
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	display: none;
+}
+
+@media (min-width: 991px) {
+	.ezy__schedule1-wrapper {
+		display: block;
+	}
+}
+
+.ezy__schedule1-inner-wrapper {
+	padding: 80px 0;
+	margin: 0 -15px;
+}
+
+@media (min-width: 768px) {
+	.ezy__schedule1-inner-wrapper {
+		padding: 155px 0;
+	}
+}
+
+.ezy__schedule1-schedule-heading {
+	border-top: 1px solid;
+	border-top-color: var(--bs-body-color);
+	border-bottom: 1px solid;
+	border-bottom-color: var(--bs-body-color);
+	padding: 8px 0;
+	display: inline-block;
+}
+
+.ezy__schedule1-day {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.ezy__schedule1-heading {
+	line-height: 27px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--bs-body-color);
+}
+
+.ezy__schedule1-sub-heading {
+	font-size: 13px;
+	font-weight: 400;
+	color: var(--bs-body-color);
+	opacity: 0.69;
+}
+
+.ezy__schedule1-time {
+	color: var(--ezy-theme-color);
+}

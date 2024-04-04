@@ -1,0 +1,58 @@
+.ezy__copyright3 {
+	/* Bootstrap variables */
+	--bs-body-color: #212529;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+}
+
+/* Gray Block Style */
+.gray .ezy__copyright3,
+.ezy__copyright3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__copyright3,
+.ezy__copyright3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__copyright3,
+.ezy__copyright3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__copyright3-nav .nav-link {
+	color: var(--bs-body-color);
+}
+
+.ezy__copyright3-nav .nav-link:hover {
+	color: var(--bs-body-color);
+	opacity: 0.9;
+}
+
+.ezy__copyright3-social li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 6px 8px;
+}
+
+.ezy__copyright3-social li a {
+	color: var(--bs-body-color);
+}
+
+.ezy__copyright3-social li a:hover {
+	color: var(--ezy-theme-color);
+}

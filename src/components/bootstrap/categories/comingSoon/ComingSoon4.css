@@ -1,0 +1,123 @@
+.ezy__comingsoon4 {
+	/* Bootstrap variables */
+	--bs-body-color: #262830;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #fff;
+	--ezy-card-shadow: -20px -33px 41px rgba(89, 88, 109, 0.39);
+	--ezy-form-shadow: 0px 5px 20px rgba(169, 170, 194, 0.35);
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: end;
+	padding: 160px 0 0;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.ezy__comingsoon4 {
+		padding: 250px 0 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__comingsoon4,
+.ezy__comingsoon4.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__comingsoon4,
+.ezy__comingsoon4.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+	--ezy-form-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark Block Style */
+.dark .ezy__comingsoon4,
+.ezy__comingsoon4.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #fff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+	--ezy-form-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* heading and sub-heading */
+.ezy__comingsoon4-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__comingsoon4-heading {
+		font-size: 45px;
+	}
+}
+
+.ezy__comingsoon4-sub-heading {
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+/* ezy__comingsoon4-card */
+.ezy__comingsoon4-card {
+	background-color: var(--ezy-card-bg);
+	padding: 55px 16px;
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-shadow: var(--ezy-card-shadow);
+}
+
+@media (min-width: 991px) {
+	.ezy__comingsoon4-card {
+		padding: 55px;
+	}
+}
+
+/* form */
+.ezy__comingsoon4-input-group {
+	box-shadow: var(--ezy-form-shadow);
+}
+
+.ezy__comingsoon4-subscription-form .form-control {
+	padding: 15px 20px;
+}
+
+.ezy__comingsoon4 .form-control::-webkit-input-placeholder {
+	font-size: 18px;
+}
+
+.ezy__comingsoon4-btn {
+	font-size: 18px;
+	font-weight: 600;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__comingsoon4-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}

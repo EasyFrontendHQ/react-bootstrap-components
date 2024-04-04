@@ -1,0 +1,94 @@
+.ezy__comingsoon2 {
+	/* Bootstrap variables */
+	--bs-body-color: #262830;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-btn-color: #fff;
+
+	background-color: var(--bs-body-bg);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 30px 0 0;
+	overflow: hidden;
+}
+
+/* Gray Block Style */
+.gray .ezy__comingsoon2,
+.ezy__comingsoon2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__comingsoon2,
+.ezy__comingsoon2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__comingsoon2,
+.ezy__comingsoon2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #fff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+/* heading and sub-heading */
+.ezy__comingsoon2-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__comingsoon2-heading {
+		font-size: 45px;
+	}
+}
+
+.ezy__comingsoon2-sub-heading {
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+/* form */
+.ezy__comingsoon2-subscription {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	min-height: 40vh;
+}
+
+.ezy__comingsoon2-subscription-form .form-control {
+	padding: 15px 20px;
+}
+
+.ezy__comingsoon2 .form-control::-webkit-input-placeholder {
+	font-size: 18px;
+}
+
+.ezy__comingsoon2-btn {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 30px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__comingsoon2-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}

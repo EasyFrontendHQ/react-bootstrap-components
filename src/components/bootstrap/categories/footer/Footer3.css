@@ -1,0 +1,67 @@
+.ezy__footer3 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__footer3 {
+		padding: 80px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__footer3,
+.ezy__footer3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__footer3,
+.ezy__footer3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+.dark .ezy__footer3,
+.ezy__footer3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+}
+
+.ezy__footer3-nav .nav-link {
+	color: var(--bs-body-color);
+}
+
+.ezy__footer3-nav .nav-link:hover {
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+.ezy__footer3-quick-links li {
+	margin-bottom: 8px;
+}
+
+.ezy__footer3-quick-links li a {
+	color: var(--bs-body-color);
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+.ezy__footer3-quick-links li a:hover {
+	color: var(--bs-body-color);
+	opacity: 1;
+}

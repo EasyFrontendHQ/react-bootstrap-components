@@ -1,0 +1,196 @@
+.ezy__blogdetails1 {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-blog-top-color: #21252d;
+	--ezy-comment-bg: 242, 243, 248;
+	--ezy-comment-divider-color: rgb(147, 147, 147);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.ezy__blogdetails1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__blogdetails1,
+.ezy__blogdetails1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-comment-bg: 255, 255, 255;
+	--ezy-comment-divider-color: rgb(90, 90, 90);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__blogdetails1,
+.ezy__blogdetails1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-blog-top-color: rgb(11, 23, 39);
+	--ezy-comment-bg: 11, 23, 39;
+	--ezy-comment-divider-color: rgb(112, 112, 112);
+}
+
+/* Dark Block Style */
+.dark .ezy__blogdetails1,
+.ezy__blogdetails1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-blog-top-color: rgb(30, 39, 53);
+	--ezy-comment-bg: 30, 39, 53;
+	--ezy-comment-divider-color: rgb(136, 136, 136);
+}
+
+.ezy__blogdetails1-heading {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__blogdetails1-heading {
+		font-size: 45px;
+	}
+}
+
+.ezy__blogdetails1-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	opacity: 0.8;
+}
+
+.ezy__blogdetails1-social a {
+	color: var(--bs-body-color);
+	font-size: 22px;
+}
+
+/* sidebar */
+.ezy__blogdetails1-top {
+	background-color: var(--ezy-blog-top-color);
+	color: #fff;
+	border-radius: 10px 10px 0 0;
+}
+
+.ezy__blogdetails1 hr {
+	color: var(--ezy-theme-color);
+}
+
+/* comment */
+.ezy__blogdetails1-comments {
+	background-color: rgba(var(--ezy-comment-bg), 0.5);
+	border-radius: 10px;
+}
+
+.ezy__blogdetails1-comments .card-header {
+	background-color: rgba(var(--ezy-comment-bg), 1);
+	border-radius: 10px 10px 0 0;
+}
+
+.ezy__blogdetails1-comments i {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__blogdetails1-comments hr {
+	color: var(--ezy-comment-divider-color);
+}
+
+.ezy__blogdetails1-comments p {
+	font-size: 15px;
+}
+
+.ezy__blogdetails1-comment-btn {
+	border: 0;
+	background-color: transparent;
+	color: var(--ezy-theme-color);
+}
+
+.ezy__blogdetails1-comment form textarea {
+	background-color: transparent;
+	border-color: var(--ezy-comment-divider-color);
+	border-radius: 05px;
+}
+
+.ezy__blogdetails1-comment form span {
+	color: var(--ezy-theme-color);
+}
+
+.ezy__blogdetails1-form-btn {
+	line-height: 1;
+	padding: 13px 35px;
+	min-width: 130px;
+	font-size: 16px;
+}
+
+.ezy__blogdetails1 .btn-outline {
+	border-color: var(--ezy-theme-color);
+	color: var(--ezy-theme-color);
+}
+
+.ezy__blogdetails1 .btn-outline:hover {
+	color: #fff;
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__blogdetails1 .btn-primary {
+	border-color: var(--ezy-theme-color);
+	background-color: var(--ezy-theme-color);
+}
+
+.ezy__blogdetails1 .btn-primary:hover {
+	color: #fff;
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+/* Content style */
+.ezy__blogdetails1-content,
+.ezy__blogdetails1-content p {
+	color: var(--bs-body-color);
+	font-size: 17px;
+	line-height: 25px;
+	opacity: 0.8;
+}
+
+.ezy__blogdetails1-content blockquote {
+	border-left: 2px solid var(--ezy-theme-color);
+	padding: 30px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.ezy__blogdetails1-content img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+	margin-bottom: 8px;
+}
+
+.ezy__blogdetails1-hr,
+.ezy__blogdetails1-content hr {
+	background-color: var(--bs-body-color);
+	opacity: 0.11;
+}
+
+.ezy__blogdetails1-content a {
+	color: var(--ezy-theme-color);
+}

@@ -1,0 +1,80 @@
+.ezy__secheader3 {
+	/* Bootstrap variables */
+	--bs-body-bg: #fff;
+	--bs-body-color: #000;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-svg-color: rgb(246, 246, 246);
+	--ezy-border-color: rgba(0, 0, 0, 0.2);
+	--ezy-topbar-bg: #f6f6f6;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	position: relative;
+	padding: 70px 0;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__secheader3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__secheader3,
+.ezy__secheader3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-topbar-bg: #fff;
+	--ezy-svg-color: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__secheader3,
+.ezy__secheader3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(11, 23, 39);
+	--ezy-border-color: rgba(255, 255, 255, 0.2);
+	--ezy-topbar-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__secheader3,
+.ezy__secheader3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(30, 39, 53);
+	--ezy-border-color: rgba(150, 150, 150, 0.25);
+	--ezy-topbar-bg: rgb(30, 39, 53);
+}
+
+.ezy__secheader3-heading {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+	.ezy__secheader3-heading {
+		font-size: 60px;
+	}
+}
+
+.ezy__secheader3-sub-heading {
+	font-size: 20px;
+	line-height: 1.2;
+	opacity: 0.75;
+}

@@ -1,0 +1,91 @@
+.ezy__eohistory1 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #f6f6f6;
+
+	background: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__eohistory1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__eohistory1,
+.ezy__eohistory1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__eohistory1,
+.ezy__eohistory1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__eohistory1,
+.ezy__eohistory1.dark {
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* table */
+.ezy__eohistory1-table {
+	background-color: var(--ezy-card-bg);
+	color: var(--bs-body-color);
+}
+.ezy__eohistory1 table th {
+	font-size: 18px;
+	color: var(--bs-body-color);
+}
+.ezy__eohistory1 table td {
+	font-size: 16px;
+	color: var(--bs-body-color);
+}
+@media (min-width: 768px) {
+	.ezy__eohistory1 table th {
+		font-size: 20px;
+	}
+	.ezy__eohistory1 table td {
+		font-size: 18px;
+	}
+}
+.ezy__eohistory1 .status {
+	width: 100%;
+	max-width: 150px;
+	padding: 7px 10px;
+}
+.ezy__eohistory1 .status.completed {
+	background-color: rgba(58, 94, 222, 0.1);
+	color: rgb(58, 94, 222);
+}
+.ezy__eohistory1 .status.inprogress {
+	background-color: rgba(80, 184, 60, 0.1);
+	color: rgba(80, 184, 60, 1);
+}
+.ezy__eohistory1 .status.failed {
+	background-color: rgba(255, 0, 0, 0.1);
+	color: rgba(255, 0, 0, 1);
+}

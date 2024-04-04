@@ -1,0 +1,103 @@
+.ezy__cookies4 {
+	/* Bootstrap variables */
+	--bs-body-color: #262830;
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: transparent;
+	--ezy-card-border: #dfdfdf;
+	--ezy-btn-border: rgba(0, 0, 0, 0.2);
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0 30px;
+}
+@media (min-width: 768px) {
+	.ezy__cookies4 {
+		padding: 100px 0 50px;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__cookies4,
+.ezy__cookies4.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-border: #d1d1d1;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__cookies4,
+.ezy__cookies4.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-border: rgb(38, 63, 99);
+	--ezy-btn-border: rgb(91, 122, 166);
+}
+
+/* Dark Block Style */
+.dark .ezy__cookies4,
+.ezy__cookies4.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #fff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-border: rgb(30, 51, 81);
+	--ezy-btn-border: rgb(91, 122, 166);
+}
+
+.ezy__cookies4-heading {
+	color: var(--bs-body-color);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.5;
+}
+.ezy__cookies4-sub-heading {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	line-height: 1.5;
+	opacity: 0.8;
+}
+
+/* card */
+.ezy__cookies4-card {
+	background-color: var(--ezy-card-bg);
+	border: 1px solid var(--ezy-card-border);
+}
+.ezy__cookies4-read-more {
+	color: var(--ezy-theme-color);
+	font-size: 18px;
+	line-height: 25px;
+	opacity: 0.8;
+	text-decoration: none;
+	cursor: pointer;
+}
+.ezy__cookies4-read-more:hover {
+	color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__cookies4 .btn-primary {
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+.ezy__cookies4 .btn-primary:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+.ezy__cookies4-dark-btn {
+	color: var(--bs-body-color);
+	background-color: transparent !important;
+	border: 1px solid var(--ezy-btn-border) !important;
+}
+.ezy__cookies4-dark-btn:hover {
+	color: var(--bs-body-color);
+	background-color: transparent !important;
+	border: 1px solid var(--ezy-btn-border) !important;
+}

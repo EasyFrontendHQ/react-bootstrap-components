@@ -1,0 +1,216 @@
+.ezy__epcheckout2 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-button-color: #fff;
+	--ezy-card-bg: #f5f7fd;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 50px 0;
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__epcheckout2,
+.ezy__epcheckout2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 0, 0, 0;
+	--ezy-card-bg: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epcheckout2,
+.ezy__epcheckout2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__epcheckout2,
+.ezy__epcheckout2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 255, 255, 255;
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+.ezy__epcheckout2 a {
+	font-weight: 500;
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: none;
+}
+
+.ezy__epcheckout2 a:hover {
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: underline;
+}
+
+.ezy__epcheckout2-heading a {
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: normal;
+	color: var(--bs-body-color);
+	text-decoration: none;
+	display: inline-block;
+}
+
+.ezy__epcheckout2-heading a:hover {
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epcheckout2-price {
+	font-size: 17px;
+	color: var(--bs-body-color);
+	font-weight: 700;
+}
+
+.ezy__epcheckout2-old-price {
+	font-size: 14px;
+	color: var(--bs-body-color);
+	opacity: 0.5;
+	text-decoration: line-through;
+}
+
+.ezy__epcheckout2-mark {
+	padding: 2px 5px;
+	border-radius: 3px;
+	background: rgba(255, 71, 71, 0.1);
+	color: rgb(255, 71, 71);
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.ezy__epcheckout2-title {
+	font-size: 15px;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcheckout2-image {
+	min-width: 50px;
+	width: 50px;
+	height: auto;
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.05);
+	border: 1px solid rgba(var(--ezy-secondary-color-rgb), 0.05);
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+@media (min-width: 768px) {
+	.ezy__epcheckout2-image {
+		min-width: 120px;
+		width: 120px;
+	}
+}
+
+.ezy__epcheckout2-qty {
+	width: 100px;
+}
+
+.ezy__epcheckout2-qty .btn {
+	width: 30px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(var(--bs-body-color));
+	border-radius: 50% !important;
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.04);
+	border-color: none;
+	padding: 0;
+}
+
+.ezy__epcheckout2-qty .btn:hover {
+	background-color: rgba(var(--ezy-secondary-color-rgb), 0.08);
+}
+
+.ezy__epcheckout2-qty .form-control {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	background-color: transparent;
+	color: var(--bs-body-color);
+	border: none;
+	padding: 0;
+}
+
+.ezy__epcheckout2-btn,
+.ezy__epcheckout2-btn-outline {
+	font-size: 14px;
+	height: 42px;
+	min-width: 42px;
+}
+
+.ezy__epcheckout2-btn {
+	border-color: rgb(var(--ezy-theme-color-rgb));
+	background-color: rgb(var(--ezy-theme-color-rgb));
+	color: var(--ezy-button-color);
+}
+
+.ezy__epcheckout2-btn-outline {
+	border-color: rgb(var(--ezy-theme-color-rgb));
+	background-color: transparent;
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epcheckout2-btn-outline:hover,
+.ezy__epcheckout2-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9) !important;
+	color: var(--ezy-button-color);
+}
+
+.ezy__epcheckout2-btn-text {
+	color: var(--bs-body-color);
+	background-color: transparent;
+	min-width: 35px;
+	height: 35px;
+}
+
+.ezy__epcheckout2-btn-text:hover {
+	background-color: rgba(var(--ezy-secondary-color-rgb), 0.05);
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epcheckout2-card {
+	background-color: var(--ezy-card-bg);
+	border: none;
+	border-radius: 10px;
+}
+
+.ezy__epcheckout2-hr {
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.05);
+	opacity: 1;
+}
+
+.ezy__epcheckout2-content {
+	font-size: 13px;
+	color: var(--bs-body-color);
+}
+
+.ezy__epcheckout2-theme-color {
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epcheckout2-promo-code .form-control {
+	border-color: rgb(var(--ezy-secondary-color-rgb), 0.1);
+	background-color: rgb(var(--ezy-secondary-color-rgb), 0.03);
+	color: rgb(var(--bs-body-color));
+	font-size: 14px;
+	height: 38px;
+}

@@ -1,0 +1,119 @@
+.ezy__travel2 {
+	/* Bootstrap variables */
+	--bs-body-color: #414058;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-body-color-invert: rgb(246, 246, 246);
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	padding: 60px 0;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 768px) {
+	.ezy__travel2 {
+		padding: 100px 0;
+	}
+}
+
+.ezy__travel2-heading {
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+	.ezy__travel2-heading {
+		font-size: 70px;
+	}
+}
+
+.ezy__travel2-sub-heading {
+	font-size: 18px;
+	line-height: 30px;
+	opacity: 0.8;
+}
+
+.ezy__travel2-card {
+	color: #414058;
+}
+.ezy__travel2-card .form-check-input {
+	border: 2px solid #e5e5e5;
+	cursor: pointer;
+}
+.ezy__travel2-card .form-check-label {
+	font-weight: 400;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.ezy__travel2-card .form-check-input:checked {
+	/* background-image: none; */
+	background-color: var(--ezy-theme-color);
+}
+
+.ezy__travel2 .form-control,
+.ezy__travel2 .form-select {
+	min-height: 54px;
+	line-height: 40px;
+	border: 0;
+	background-color: rgba(237, 242, 246, 0.63);
+	border-radius: 5px;
+	color: #92909e;
+}
+.ezy__travel2 .form-control::placeholder,
+.ezy__travel2 .form-select::placeholder {
+	color: #92909e;
+}
+
+.ezy__travel2 .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+	color: #000;
+}
+
+.ezy__travel2 .form-control:focus .ezy__travel2-icon {
+	color: #000 !important;
+}
+
+.ezy__travel2-input-item {
+	border-radius: 5px !important;
+}
+.ezy__travel2-icon {
+	position: absolute;
+	top: 50%;
+	left: 15px;
+	transform: translateY(-50%);
+	font-size: 22px;
+}
+.ezy__travel2-hr {
+	min-height: 54px;
+	width: 3px;
+	background-color: #dadbe1;
+	margin: 0;
+	opacity: 1;
+}
+
+.ezy__travel2-submit-btn {
+	padding: 5px 30px;
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	height: 40px;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1;
+	border-radius: 5px;
+}
+.ezy__travel2-submit-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}

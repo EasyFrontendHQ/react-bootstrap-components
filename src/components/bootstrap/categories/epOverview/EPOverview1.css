@@ -1,0 +1,204 @@
+.ezy__epoverview1 {
+	/* Bootstrap variables */
+	--bs-body-color: #23262f;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-secondary-color-rgb: 237, 237, 237;
+	--ezy-button-color: #fff;
+	--ezy-shape-color: #f5f7fd;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.ezy__epoverview1 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epoverview1,
+.ezy__epoverview1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 225, 221, 221;
+	--ezy-shape-color: rgb(255, 255, 255);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epoverview1,
+.ezy__epoverview1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 38, 63, 99;
+	--ezy-shape-color: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__epoverview1,
+.ezy__epoverview1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-secondary-color-rgb: 38, 63, 99;
+	--ezy-shape-color: rgb(30, 39, 53);
+}
+
+.ezy__epoverview1-heading {
+	font-size: 24px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__epoverview1-heading {
+		font-size: 35px;
+		line-height: 35px;
+	}
+}
+
+.ezy__epoverview1-price {
+	font-size: 24px;
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epoverview1-title {
+	font-size: 15px;
+	color: var(--bs-body-color);
+}
+
+.ezy__epoverview1-review {
+	font-weight: 500;
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: none;
+}
+
+.ezy__epoverview1-review:hover {
+	color: rgb(var(--ezy-theme-color-rgb));
+	text-decoration: underline;
+}
+
+.ezy__epoverview1-qty {
+	width: 180px;
+}
+
+.ezy__epoverview1-qty .btn {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epoverview1-qty .btn:hover {
+	background-color: rgb(var(--ezy-secondary-color-rgb));
+}
+
+.ezy__epoverview1-qty .btn:first-child {
+	border-radius: 50rem 0 0 50rem !important;
+}
+
+.ezy__epoverview1-qty .btn:last-child {
+	border-radius: 0 50rem 50rem 0 !important;
+}
+
+.ezy__epoverview1-qty .form-control {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	background-color: transparent;
+	color: var(--bs-body-color);
+}
+
+.ezy__epoverview1-qty .btn,
+.ezy__epoverview1-qty .form-control {
+	border-color: rgb(var(--ezy-secondary-color-rgb));
+	height: 48px;
+}
+
+.ezy__epoverview1-radios .btn {
+	border-color: rgb(var(--ezy-secondary-color-rgb));
+	background-color: rgba(var(--ezy-secondary-color-rgb), 0.7);
+	color: var(--bs-body-color);
+	font-size: 13px;
+	padding: 3px 17px;
+}
+
+.ezy__epoverview1-radios .btn:hover {
+	background-color: rgba(var(--ezy-secondary-color-rgb), 1);
+}
+
+.ezy__epoverview1-radios .btn-check:checked + .btn {
+	background-color: rgb(var(--ezy-secondary-color-rgb));
+	color: var(--bs-body-color);
+	border-color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epoverview1-radios .btn-check:disabled + .btn {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.ezy__epoverview1-btn {
+	font-size: 14px;
+	border-color: rgb(var(--ezy-theme-color-rgb));
+	background-color: rgb(var(--ezy-theme-color-rgb));
+	color: var(--ezy-button-color);
+	height: 42px;
+	min-width: 42px;
+}
+
+.ezy__epoverview1-btn:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	color: var(--ezy-button-color);
+}
+
+.ezy__epoverview1-share {
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epoverview1-share:hover {
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.1);
+	color: rgb(var(--ezy-theme-color-rgb));
+}
+
+.ezy__epoverview1-content {
+	color: var(--bs-body-color);
+	opacity: 0.7;
+}
+
+.ezy__epoverview1-gallery li {
+	width: 100px;
+	height: 100px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--ezy-shape-color);
+	border: 1px solid rgb(var(--ezy-secondary-color-rgb));
+	border-radius: 8px;
+	margin-right: 10px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.ezy__epoverview1-shape {
+	background-color: var(--ezy-shape-color);
+	border-radius: 8px;
+	position: absolute;
+	right: 40%;
+	bottom: 50px;
+	width: 5000px;
+	height: 5000px;
+}

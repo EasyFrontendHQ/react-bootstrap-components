@@ -1,0 +1,98 @@
+.ezy__portfolio3 {
+	/* Bootstrap variables */
+	--bs-body-color: #373572;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-popup-bg-rgb: 2239, 244, 253;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__portfolio3,
+.ezy__portfolio3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 246, 246, 246;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__portfolio3,
+.ezy__portfolio3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 30, 39, 53;
+}
+
+/* Dark Block Style */
+.dark .ezy__portfolio3,
+.ezy__portfolio3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-popup-bg-rgb: 22, 34, 49;
+}
+
+.ezy__portfolio3-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__portfolio3-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__portfolio3-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__portfolio3-item {
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.ezy__portfolio3-img {
+	border-radius: 12px;
+	max-width: 250px;
+}
+
+.ezy__portfolio3-content * {
+	color: var(--bs-body-color);
+}
+
+.ezy__portfolio3-btn-filter {
+	padding: 7px 20px;
+	border-color: var(--ezy-theme-color);
+	color: var(--ezy-theme-color);
+}
+
+.ezy__portfolio3-btn-filter:hover,
+.ezy__portfolio3-btn-filter.active {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+}

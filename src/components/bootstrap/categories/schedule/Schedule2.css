@@ -1,0 +1,129 @@
+.ezy__schedule2 {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(255, 255, 255);
+	--bs-body-bg-rgb: 255, 255, 255;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #ffffff;
+	--ezy-item-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+	--ezy-rating-rgb: 255, 215, 0;
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__schedule2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__schedule2,
+.ezy__schedule2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__schedule2,
+.ezy__schedule2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+	--bs-body-bg-rgb: 30, 39, 53;
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #162231;
+	--ezy-item-shadow: none;
+}
+
+/* Dark Block Style */
+.dark .ezy__schedule2,
+.ezy__schedule2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+	--bs-body-bg-rgb: 11, 23, 39;
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #162231;
+	--ezy-item-shadow: none;
+}
+
+.ezy__schedule2-heading {
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 45px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__schedule2-heading {
+		font-size: 55px;
+		line-height: 70px;
+	}
+}
+
+.ezy__schedule2-sub-heading {
+	font-size: 14px;
+	line-height: 28px;
+	color: var(--bs-body-color);
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	opacity: 0.9;
+}
+
+.ezy__schedule2 p {
+	letter-spacing: 1px;
+	opacity: 0.6;
+}
+
+.ezy__schedule2-image {
+	position: relative;
+	width: 100px;
+}
+
+.ezy__schedule2-image::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background-image: linear-gradient(
+		rgba(var(--bs-body-bg-rgb), 0.2) 34%,
+		rgba(var(--bs-body-bg-rgb), 0.8) 80%,
+		rgba(var(--bs-body-bg-rgb), 1) 98%
+	);
+}
+
+.ezy__schedule2-schedule {
+	line-height: 16px;
+	color: var(--bs-body-color);
+	opacity: 0.6;
+}
+
+.ezy__schedule2-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.ezy__schedule2-description {
+	color: var(--bs-body-color);
+	line-height: 20px;
+	opacity: 0.6;
+}
+
+.ezy__schedule2-nav a {
+	color: var(--bs-body-color);
+	opacity: 0.6;
+	text-decoration: none;
+}

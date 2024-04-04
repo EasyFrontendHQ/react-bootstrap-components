@@ -1,0 +1,146 @@
+.ezy__eporder3 {
+	/* Bootstrap variables */
+	--bs-body-bg: #fff;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: rgb(246, 246, 246);
+	--ezy-svg-color: #fff;
+	--ezy-border-color: rgba(73, 73, 73, 0.3);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	position: relative;
+}
+
+/* Gray Block Style */
+.gray .ezy__eporder3,
+.ezy__eporder3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+	--ezy-svg-color: #f6f6f6;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__eporder3,
+.ezy__eporder3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(30, 39, 53);
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__eporder3,
+.ezy__eporder3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(11, 23, 39);
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* progress bar */
+.ezy__eporder3-progress::after {
+	content: "";
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 0;
+	border-top: 2px dashed var(--ezy-border-color);
+}
+
+.ezy__eporder3-progress span {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background-color: var(--ezy-card-bg);
+	border: 1px solid var(--ezy-border-color);
+	color: var(--bs-body-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 17px;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.ezy__eporder3-progress span.active {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border: 1px solid var(--ezy-theme-color);
+}
+
+/* wrapper */
+.ezy__eporder3-wrapper {
+	background-color: var(--ezy-card-bg);
+}
+
+/* form */
+
+.ezy__eporder3 .form-control {
+	min-height: 48px;
+	line-height: 40px;
+	border-color: transparent;
+	background: rgba(163, 190, 241, 0.14);
+	border-radius: 10px;
+	color: var(--bs-body-color);
+}
+
+.ezy__eporder3 .form-control:focus {
+	border-color: var(--ezy-theme-color);
+	box-shadow: none;
+}
+
+.ezy__eporder3 form label {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.ezy__eporder3 form label span {
+	color: var(--ezy-theme-color);
+}
+
+/* payment */
+.ezy__eporder3-card {
+	background-color: var(--bs-body-bg);
+}
+
+.ezy__eporder3-payment {
+	background-color: var(--ezy-card-bg);
+}
+
+.ezy__eporder3 .form-check-input:checked {
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+/* btn */
+.ezy__eporder3-btn {
+	color: #fff;
+	font-size: 15px;
+	padding: 12px 25px;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__eporder3-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__eporder3 hr {
+	color: rgba(var(--ezy-theme-color-rgb), 0.75);
+}

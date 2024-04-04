@@ -1,0 +1,158 @@
+.ezy__pricing3 {
+	/* Bootstrap variables */
+	--bs-body-color: #252d39;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-item-bg: #f2f6fe;
+	--ezy-item-border-color: rgba(0, 0, 0, 0.08);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__pricing3,
+.ezy__pricing3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(239, 244, 253);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #fff;
+	--ezy-item-border-color: rgba(19, 19, 19, 0.08);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__pricing3,
+.ezy__pricing3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #243548;
+	--ezy-item-border-color: rgba(229, 229, 229, 0.08);
+}
+
+/* Dark Block Style */
+.dark .ezy__pricing3,
+.ezy__pricing3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-item-bg: #101d2c;
+	--ezy-item-border-color: rgba(255, 255, 255, 0.08);
+}
+
+.ezy__pricing3-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__pricing3-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__pricing3-sub-heading {
+	font-size: 16px;
+	line-height: 22px;
+	color: var(--bs-body-color);
+}
+
+.ezy__pricing3-list [class*="col-"]:nth-of-type(1n) .ezy__pricing3-title {
+	color: var(--bs-info);
+}
+
+.ezy__pricing3-list [class*="col-"]:nth-of-type(2n) .ezy__pricing3-title {
+	color: var(--bs-warning);
+}
+
+.ezy__pricing3-list [class*="col-"]:nth-of-type(3n) .ezy__pricing3-title {
+	color: var(--bs-primary);
+}
+
+.ezy__pricing3-item {
+	background-color: var(--ezy-item-bg);
+	transition: transform 0.25s ease-in-out;
+}
+
+.ezy__pricing3-item.active {
+	background-color: var(--ezy-item-active-bg);
+}
+
+.ezy__pricing3-price,
+.ezy-pricing3-features,
+.ezy__pricing3-note {
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 991px) {
+	.border-lg-end {
+		border-right: 1px solid;
+	}
+}
+
+.ezy__pricing3 .border-lg-end {
+	border-color: var(--ezy-item-border-color) !important;
+}
+
+.ezy__pricing3-item.active .ezy__pricing3-price,
+.ezy__pricing3-item.active .ezy-pricing3-features,
+.ezy__pricing3-item.active .ezy__pricing3-note {
+	color: var(--ezy-item-active-color);
+}
+
+.ezy__pricing3-btn {
+	padding: 12px 30px;
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__pricing3 .btn-outline {
+	color: rgba(var(--ezy-theme-color-rgb), 1);
+	background-color: transparent;
+}
+
+.ezy__pricing3-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+.ezy__pricing3 .text-primary {
+	color: var(--ezy-theme-color) !important;
+}
+
+.ezy__pricing3 .bg-warning {
+	background-color: var(--ezy-theme-color) !important;
+}
+
+.ezy__pricing3-editor-choose-badge {
+	color: #fff;
+}
+@media (min-width: 991px) {
+	.ezy__pricing3-editor-choose-badge {
+		margin-top: -40px;
+	}
+}
+
+.ezy__pricing3 hr {
+	background-color: var(--ezy-item-border-color) !important;
+}

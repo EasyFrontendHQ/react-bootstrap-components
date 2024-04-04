@@ -1,0 +1,51 @@
+.ezy__cta2 {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(79, 42, 192);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__cta2 {
+		padding: 80px 0;
+	}
+}
+
+.ezy__cta2-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__cta2-heading {
+		font-size: 45px;
+		line-height: 45px;
+	}
+}
+
+.ezy__cta2-sub-heading {
+	font-size: 18px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+.ezy__cta2-shape {
+	width: 400px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, 0.03);
+	border-radius: 50%;
+	margin: -100px;
+}
+
+.ezy__cta2-btn {
+	padding: 12px 30px;
+}

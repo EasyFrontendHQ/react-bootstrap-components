@@ -1,0 +1,77 @@
+.ezy__epfeature3 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__epfeature3 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__epfeature3,
+.ezy__epfeature3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__epfeature3,
+.ezy__epfeature3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__epfeature3,
+.ezy__epfeature3.dark {
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+.ezy__epfeature3 h4 {
+	font-size: 22px;
+	color: var(--bs-body-color);
+}
+.ezy__epfeature3 p {
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 1.65;
+}
+.ezy__epfeature3-item {
+	background-color: var(--ezy-item-bg);
+	border-radius: 15px;
+	box-shadow: var(--ezy-item-shadow);
+}
+
+.ezy__epfeature3-item * {
+	color: var(--bs-body-color);
+}
+.ezy__epfeature3 a {
+	text-decoration: none;
+	color: var(--bs-body-color);
+}
+.ezy__epfeature3-btn-collapse [class*="fa-"] {
+	transition: transform 0.25s ease-in-out;
+}
+
+.ezy__epfeature3-btn-collapse:focus {
+	box-shadow: none;
+}
+
+.ezy__epfeature3-btn-collapse.active [class*="fa-"],
+.ezy__epfeature3-btn-collapse[aria-expanded="true"] [class*="fa-"] {
+	transform: rotate(-180deg);
+}

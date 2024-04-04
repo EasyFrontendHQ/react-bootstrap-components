@@ -1,0 +1,89 @@
+.ezy__httpcodes3 {
+	/* Bootstrap variables */
+	--bs-body-color: #04004d;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+
+	background-color: var(--bs-body-bg);
+	padding: 180px 0;
+	display: flex;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__httpcodes3 {
+		padding: 300px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__httpcodes3,
+.ezy__httpcodes3.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__httpcodes3,
+.ezy__httpcodes3.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+}
+
+/* Dark Block Style */
+.dark .ezy__httpcodes3,
+.ezy__httpcodes3.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+}
+
+/* heading and sub-heading */
+.ezy__httpcodes3-heading {
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+
+.ezy__httpcodes3-sub-heading {
+	font-size: 25px;
+	line-height: 1;
+	color: var(--bs-body-color);
+	opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+	.ezy__httpcodes3-heading {
+		font-size: 160px;
+	}
+
+	.ezy__httpcodes3-sub-heading {
+		font-size: 50px;
+	}
+}
+
+/* svg */
+.ezy__httpcodes3 img {
+	z-index: -1;
+	height: 40%;
+}
+
+@media (min-width: 1190px) {
+	.ezy__httpcodes3 img {
+		height: 55%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.ezy__httpcodes3 img {
+		height: 64%;
+	}
+}

@@ -1,0 +1,48 @@
+.ezy__header1 {
+	/* Bootstrap variables */
+	--bs-body-color: #373572;
+	--bs-body-bg: rgb(231, 246, 253);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-shadow: 0px 4px 44px rgba(159, 190, 218, 0.37);
+
+	background-color: var(--bs-body-bg);
+	overflow: hidden;
+	padding: 60px 0;
+	position: relative;
+}
+
+@media (min-width: 768px) {
+	.ezy__header1 {
+		padding: 100px 0;
+	}
+}
+
+.ezy__header1-heading {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: var(--bs-body-color);
+}
+
+@media (min-width: 768px) {
+	.ezy__header1-heading {
+		font-size: 70px;
+		line-height: 70px;
+	}
+}
+
+.ezy__header1-sub-heading {
+	color: var(--bs-body-color);
+	font-size: 22px;
+	line-height: 1.5;
+	opacity: 0.8;
+}
+
+.ezy__header1-btn {
+	padding: 12px 30px;
+	color: var(--bs-body-color);
+	box-shadow: var(--ezy-shadow);
+}

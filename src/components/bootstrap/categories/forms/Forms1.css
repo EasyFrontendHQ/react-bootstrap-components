@@ -1,0 +1,125 @@
+.ezy__forms1 {
+	/* Bootstrap variables */
+	--bs-body-bg: #fff;
+	--bs-body-color: #000;
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-svg-color: rgb(246, 246, 246);
+	--ezy-border-color: rgba(123, 123, 123, 0.2);
+
+	background-color: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0 0;
+	position: relative;
+	z-index: 1;
+}
+
+@media (min-width: 768px) {
+	.ezy__forms1 {
+		padding: 100px 0 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__forms1,
+.ezy__forms1.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__forms1,
+.ezy__forms1.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(11, 23, 39);
+	--ezy-border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Dark Block Style */
+.dark .ezy__forms1,
+.ezy__forms1.dark {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-svg-color: rgb(30, 39, 53);
+	--ezy-border-color: rgba(150, 150, 150, 0.25);
+}
+
+.ezy__forms1 .progress {
+	height: 10px;
+}
+.ezy__forms1 .progress-bar {
+	background-color: var(--ezy-theme-color);
+}
+
+.ezy__forms1 .form-check {
+	border: 1px solid var(--ezy-border-color);
+	border-radius: 5px;
+}
+
+.ezy__forms1 .form-check-input:checked {
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__forms1 label {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+/* btns */
+.ezy__forms1 .btn {
+	min-width: 120px;
+	padding: 11px 30px;
+}
+
+.ezy__forms1-btn-outline {
+	background-color: transparent;
+	color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__forms1-btn-outline:hover {
+	background-color: var(--ezy-theme-color);
+	color: var(--bs-body-color);
+}
+
+.ezy__forms1-btn {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color);
+}
+
+.ezy__forms1-btn:hover {
+	color: #fff;
+	background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+	border-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+/* svg */
+.ezy__forms1-svg {
+	position: absolute;
+	z-index: -1;
+}
+
+.ezy__forms1-svg.svg-1 {
+	bottom: 0;
+	right: 0;
+}
+
+.ezy__forms1-svg.svg-2 {
+	bottom: 20px;
+	left: 50px;
+}

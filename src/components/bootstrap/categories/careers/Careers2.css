@@ -1,0 +1,98 @@
+.ezy__careers2 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: #fff;
+
+	/* easy frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #f6f7f8;
+
+	background-color: var(--bs-body-bg);
+	padding: 60px 0;
+}
+@media (min-width: 768px) {
+	.ezy__careers2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__careers2,
+.ezy__careers2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* easy frontend variables */
+	--ezy-card-bg: #f0f0f0;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__careers2,
+.ezy__careers2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(241, 241, 241);
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* easy frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__careers2,
+.ezy__careers2.dark {
+	/* Bootstrap variables */
+	--bs-body-color: rgb(255, 255, 255);
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* easy frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* heading and sub-heading */
+.ezy__careers2-heading {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 1;
+	color: var(--bs-body-color);
+}
+.ezy__careers2-sub-heading {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	opacity: 0.8;
+}
+@media (min-width: 991px) {
+	.ezy__careers2-heading {
+		font-size: 45px;
+	}
+}
+
+/* card */
+.ezy__careers2-card {
+	color: var(--bs-body-color);
+	background-color: var(--ezy-card-bg);
+}
+.ezy__careers2-title {
+	color: var(--bs-body-color);
+}
+.ezy__careers2-title a {
+	text-decoration: none;
+	color: var(--bs-body-color);
+}
+.ezy__careers2-title a:hover {
+	text-decoration: none;
+	color: var(--ezy-theme-color);
+}
+.ezy__careers2-sub-title {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	opacity: 0.8;
+}
+.ezy__careers2-details,
+.ezy__careers2-card i {
+	color: var(--bs-body-color);
+	font-size: 16px;
+	opacity: 0.8;
+}

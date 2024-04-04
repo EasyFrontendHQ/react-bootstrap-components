@@ -1,0 +1,105 @@
+.ezy__eohistory2 {
+	/* Bootstrap variables */
+	--bs-body-color: #28303b;
+	--bs-body-bg: rgb(255, 255, 255);
+
+	/* Easy Frontend variables */
+	--ezy-theme-color: rgb(13, 110, 253);
+	--ezy-theme-color-rgb: 13, 110, 253;
+	--ezy-card-bg: #f6f6f6;
+
+	background: var(--bs-body-bg);
+	color: var(--bs-body-color);
+	overflow: hidden;
+	padding: 60px 0;
+}
+
+@media (min-width: 992px) {
+	.ezy__eohistory2 {
+		padding: 100px 0;
+	}
+}
+
+/* Gray Block Style */
+.gray .ezy__eohistory2,
+.ezy__eohistory2.gray {
+	/* Bootstrap variables */
+	--bs-body-bg: rgb(246, 246, 246);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: #fff;
+}
+
+/* Dark Gray Block Style */
+.dark-gray .ezy__eohistory2,
+.ezy__eohistory2.dark-gray {
+	/* Bootstrap variables */
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(30, 39, 53);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(11, 23, 39);
+}
+
+/* Dark Block Style */
+.dark .ezy__eohistory2,
+.ezy__eohistory2.dark {
+	--bs-body-color: #ffffff;
+	--bs-body-bg: rgb(11, 23, 39);
+
+	/* Easy Frontend variables */
+	--ezy-card-bg: rgb(30, 39, 53);
+}
+
+/* card */
+.ezy__eohistory2-card {
+	background-color: var(--ezy-card-bg);
+}
+/* btn */
+.ezy__eohistory2-btn {
+	color: var(--bs-body-color);
+	padding: 7px 20px;
+}
+.ezy__eohistory2-btn:hover {
+	color: #fff;
+	background-color: var(--ezy-theme-color);
+	border-color: var(--ezy-theme-color) !important;
+}
+
+/* innner card */
+.ezy__eohistory2-details {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.ezy__eohistory2-details {
+		width: 80%;
+	}
+}
+.ezy__eohistory2-status {
+	padding: 7px 20px;
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.ezy__eohistory2-status {
+		width: 120px;
+	}
+}
+.ezy__eohistory2-status.completed {
+	background-color: rgba(58, 94, 222, 0.1);
+	color: rgb(58, 94, 222);
+}
+.ezy__eohistory2-status.inprogress {
+	background-color: rgba(80, 184, 60, 0.1);
+	color: rgba(80, 184, 60, 1);
+}
+.ezy__eohistory2-status.failed {
+	background-color: rgba(255, 0, 0, 0.1);
+	color: rgba(255, 0, 0, 1);
+}
+.ezy__eohistory2 a {
+	text-decoration: none;
+	color: var(--bs-body-color);
+}
+.ezy__eohistory2 a:hover {
+	color: var(--ezy-theme-color);
+}
